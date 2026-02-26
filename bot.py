@@ -57,11 +57,11 @@ async def handle_button(update: Update, context: ContextTypes.DEFAULT_TYPE):
         text = (
             "📌 <b>MISI WAJIB DISELESAIKAN</b>\n\n"
             "🔗 Link pendaftaran:\n"
-            "https://puzzlefarm.shareearn1.com/?code=11350521\n\n"
-            "✅ Login lewat FB biar dapat coin lebih\n"
+            "https://d32sk10c4uk0hu.cloudfront.net/bbm/index_1.html?id=85064899\n\n"
+            "✅ Login lewat goggle atau fb\n"
             "✅ Kerjain misinya\n"
-            "✅ Rajin login biar dapat reward banyak\n\n"
-            "🚀 WAJIB MASUKIN ID REFFERAL = <b>11350521</b>"
+            "✅ Wajib rajin login biar dapat reward banyak\n\n"
+            "🚀 WAJIB MASUKIN ID REFFERAL = <b>85064899</b>"
         )
 
         await query.edit_message_text(
@@ -74,7 +74,7 @@ async def handle_button(update: Update, context: ContextTypes.DEFAULT_TYPE):
         # Kirim pesan BARU (bukan edit)
         await query.message.reply_text(
             "❌ Kamu belum menyelesaikan misinya!\n\n"
-            "🚀 WAJIB MASUKIN ID REFFERAL = 11350521\n\n"
+            "🚀 WAJIB MASUKIN ID REFFERAL = 85064899\n\n"
             "Selesaikan dulu misinya biar 500 file bisa kebuka!",
             reply_markup=get_keyboard()
         )
