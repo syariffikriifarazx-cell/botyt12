@@ -109,15 +109,3 @@ if __name__ == "__main__":
 
 ---
 
-## 🔥 Yang Ditambahkan:
-
-Di bawah:
-
-> 🚀 WAJIB MASUKIN ID REFFERAL = 85064899
-
-Sekarang ada penjelasan:
-
-* Cari Invite ID / ID Referral
-* Masukkan 85064899
-* Harus benar biar valid
-* File bisa diakses
