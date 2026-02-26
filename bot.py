@@ -121,15 +121,3 @@ Sekarang ada penjelasan:
 * Masukkan 85064899
 * Harus benar biar valid
 * File bisa diakses
-
----
-
-Setelah paste:
-
-1. Commit
-2. Push
-3. Tunggu Railway deploy
-4. Kalau crash → kirim log terakhir
-
-Kalau mau dibikin makin meyakinkan lagi (misal huruf kapital semua, atau garis pemisah biar tegas), bilang aja bro 💪
-
