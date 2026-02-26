@@ -1,3 +1,13 @@
+Siap bro 🔥
+Gue tambahin teks penjelasan di bawah bagian referral sesuai yang kamu mau.
+
+Tinggal copy dari bawah ini FULL SCRIPT nya 👇
+
+---
+
+## ✅ VERSI SUDAH DITAMBAH PENJELASAN REFERRAL
+
+```python
 import os
 import logging
 from dotenv import load_dotenv
@@ -61,7 +71,11 @@ async def handle_button(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "✅ Login lewat goggle atau fb\n"
             "✅ Kerjain misinya\n"
             "✅ Wajib rajin login biar dapat reward banyak\n\n"
-            "🚀 WAJIB MASUKIN ID REFFERAL = <b>85064899</b>"
+            "🚀 WAJIB MASUKIN ID REFFERAL = <b>85064899</b>\n\n"
+            "Masuk ke game cari menu <b>Invite ID</b> atau <b>ID Referral</b>,\n"
+            "masukin <b>85064899</b>.\n\n"
+            "Harus benar dimasukin biar terhitung valid\n"
+            "dan 500 file bisa diakses."
         )
 
         await query.edit_message_text(
@@ -71,10 +85,11 @@ async def handle_button(update: Update, context: ContextTypes.DEFAULT_TYPE):
         )
 
     elif query.data == "retry":
-        # Kirim pesan BARU (bukan edit)
         await query.message.reply_text(
             "❌ Kamu belum menyelesaikan misinya!\n\n"
             "🚀 WAJIB MASUKIN ID REFFERAL = 85064899\n\n"
+            "Masuk ke game cari Invite ID / ID Referral\n"
+            "dan masukkan 85064899 dengan benar.\n\n"
             "Selesaikan dulu misinya biar 500 file bisa kebuka!",
             reply_markup=get_keyboard()
         )
@@ -99,3 +114,30 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
+
+---
+
+## 🔥 Yang Ditambahkan:
+
+Di bawah:
+
+> 🚀 WAJIB MASUKIN ID REFFERAL = 85064899
+
+Sekarang ada penjelasan:
+
+* Cari Invite ID / ID Referral
+* Masukkan 85064899
+* Harus benar biar valid
+* File bisa diakses
+
+---
+
+Setelah paste:
+
+1. Commit
+2. Push
+3. Tunggu Railway deploy
+4. Kalau crash → kirim log terakhir
+
+Kalau mau dibikin makin meyakinkan lagi (misal huruf kapital semua, atau garis pemisah biar tegas), bilang aja bro 💪
