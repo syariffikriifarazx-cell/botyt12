@@ -1,13 +1,4 @@
-Siap bro 🔥
-Gue tambahin teks penjelasan di bawah bagian referral sesuai yang kamu mau.
-
-Tinggal copy dari bawah ini FULL SCRIPT nya 👇
-
----
-
-## ✅ VERSI SUDAH DITAMBAH PENJELASAN REFERRAL
-
-```python
+python
 import os
 import logging
 from dotenv import load_dotenv
@@ -141,3 +132,4 @@ Setelah paste:
 4. Kalau crash → kirim log terakhir
 
 Kalau mau dibikin makin meyakinkan lagi (misal huruf kapital semua, atau garis pemisah biar tegas), bilang aja bro 💪
+
